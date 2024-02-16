@@ -1,0 +1,11 @@
+body{
+	background-color: lightblue;
+}
+.heading{
+	text-align: center;
+	font-family: consolas;
+}
+#hedin{
+	text-align: right;
+	font-size: 200px;
+}

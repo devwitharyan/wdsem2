@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice</title>
+	<style type="text/css">
+		body{
+			background-color: #FAF5FF;
+			/*background-image: url(Capture.PNG);*/
+			/*background-repeat: no-repeat;*/
+		}
+		h1{
+			background-color: black;
+			color: white;
+			text-align: center;
+			direction: rtl;
+			unicode-bidi: bidi-override;
+			text-shadow: 2px 2px 5px red;	
+		}
+		.para1{
+			background-color: lightgrey;
+			color: red;
+			text-align: right;
+			text-decoration-line: underline overline line-through;
+			text-decoration-color: purple;
+			text-decoration-style: wavy;
+			text-decoration-thickness: 5px;
+			/*text-decoration: none;*/
+			text-shadow: 2px 2px 5px blue;
+		}
+		.para2{
+			font-family: consolas;	
+			background-color: black;
+			color: red;
+			text-align-last: justify;
+			text-decoration: underline blue	dotted 2px;
+			text-transform: uppercase;
+			/*text-transform: lowercase;*/
+			/*text-transform: capitalize;*/
+			/*text-indent: 50px;*/
+			/*letter-spacing: 5px*/
+			line-height: 2;
+			word-spacing: 15px;
+
+		}
+		.just{
+			border: 1px solid black;
+			padding: 7px;
+			margin: 200px;
+			width: 200px;
+			height: 200px;
+			text-align: justify;
+			text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+		}
+		.img{
+			border: 5px solid red;
+			height: 500px;
+			background-color: #FAF5FF;
+			background-image: url(Capture.PNG);
+			background-repeat: no-repeat;
+			object-fit: cover;
+
+		}
+		.box1{
+			position: absolute;
+			border: 5px solid;
+			height: 200px;
+			width: 200px;
+			background-color: lightblue;
+			padding: 10px;
+			margin: 50px;
+			z-index: 1;
+		}
+		.box2{
+			position: absolute;
+			border: 5px solid;
+			height: 200px;
+			width: 200px;
+			background-color: lightgrey;
+			padding: 10px;
+			margin: 100px;
+			z-index: 2;
+		}
+		.box3{
+			position: absolute;
+			border: 5px solid;
+			height: 200px;
+			width: 200px;
+			background-color: pink;
+			padding: 10px;
+			margin: 150px;
+			z-index: 2;
+		}
+		div:hover{
+			background-color: red;
+		}
+	</style>
+	<link rel="icon" href="https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg">
+</head>
+<body>
+	<h1>This is under h1 tag!</h1>
+	<p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<div class="just">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</div>
+
+	<div class="img"></div>
+
+	<div class="box1">box1</div>
+	<div class="box2">box2</div>
+	<div class="box3">box3</div>
+</body>
+</html>
